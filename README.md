@@ -3,7 +3,10 @@
 This is a RESTful API to retrieve specific data about food trucks in San Francisco. It contains routes for truck and food information. More route and request will be added in the future.
 
 ## Features
-Can get a list of all the truck and food. Can search by truck name
+Can get a list of all the truck and food. Can search by truck name. Can search by food.
+
+## Think out Loud
+Due to time constraint, not a lot of features are build. Part of the time is used to create middleware, optimize runtime and structure the project. Most of the algorithms are running in O(n) or O(n * m), where m is the length of a text. Cache is used to optimize server responds time if request are the same. More features such as searching by different fields, integrating with third-party API, such as google map or yelp, or including a database, such as mongodb can be added for future add-ons. As of now, all the testing was done manually in Postman. Unit testing can be added if there were more time.
 
 ## Data Source
 The food truck data comes from a public database, [link here](https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data). This data set can also be obtained by using this API https://data.sfgov.org/resource/rqzj-sfat.json.

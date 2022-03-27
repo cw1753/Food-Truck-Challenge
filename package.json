@@ -20,7 +20,10 @@
   "homepage": "https://github.com/cw1753/Food-Truck-Challenge#readme",
   "dependencies": {
     "compression": "^1.7.4",
+    "csv-parser": "^3.0.0",
     "dotenv": "^16.0.0",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "express-cache-middleware": "^1.0.1",
+    "morgan": "^1.10.0"
   }
 }
